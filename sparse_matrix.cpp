@@ -49,6 +49,8 @@ int main() {
         cout << "The given matrix is not a sparse matrix" << endl;
     }
 
+    show(arr, n, m);
+
     for(int i = 0; i < n; i++) {
         delete[] arr[i];
     }
